@@ -1,3 +1,63 @@
 /*
- * Estilos de tu proyecto
+ * Fuentes
+ font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
  */
+body {
+  margin: 0;
+  padding: 0;
+}
+/*Estilo header*/
+header {
+  width: auto;
+  height: 16vh;
+  min-height: 54px;
+  background-color: #2c3e50;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 4.5vh;
+  font-family: 'Montserrat', sans-serif;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+header .title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+header div {
+  display: inline;
+}
+.conteiner {
+  margin: auto 11vw;
+}
+.menu-list {
+  list-style: none;
+  display: inline-block;
+  margin-left: 21.5vw;
+}
+.menu-list li {
+  display: inline;
+}
+.menu-list li a {
+  font-weight: 600;
+  letter-spacing:1px;
+  margin-left: 10px;
+}
+.menu-list li a:hover {
+  color: #18bc9c;
+}
+
+/*clases reusables*/
+.text-uppercase {
+  text-transform: uppercase;
+}
+.black {
+  color: #fff;
+}
+.no-decoration {
+  text-decoration: none;
+}
