@@ -32,12 +32,12 @@ header div {
   display: inline;
 }
 .conteiner {
-  margin: auto 11vw;
+  margin: auto 5vw;
 }
 .menu-list {
   list-style: none;
   display: inline-block;
-  margin-left: 21.5vw;
+  margin-left: 33.5vw;
 }
 .menu-list li {
   display: inline;
@@ -50,7 +50,45 @@ header div {
 .menu-list li a:hover {
   color: #18bc9c;
 }
+/*First Section*/
+.first {
+  background-color: #18bc9c;
+  width: 100%;
+  height: 684px;/*cambiar a vh*/
+  margin: 108px 0 0 0;
+  text-align: center;
+}
+.image-profile img {
+  display: inline-block;
+  margin-top: 95px;
+}
+.title-big {
+  font-size: 76px;
+  font-stretch: extra-condensed;
+  font-family: 'Montserrat', sans-serif;
+  margin: 26px 0 0 0;
+  padding: 0;
+}
+.icon {
+  margin: 20px 0 0 0;
+}
+.fa-minus {
+  display: inline-block;
+  width: 50px;
+}
+/*.line {
+  display: inline-block;
+  padding: 0;
+  width: 50px;
+  background-color: #fff;
+}*/
+.icon .fa-star::after {
+  content: "";
+  width: 100px;
+  color: black;
+  background-color: black;
 
+}
 /*clases reusables*/
 .text-uppercase {
   text-transform: uppercase;
@@ -60,4 +98,8 @@ header div {
 }
 .no-decoration {
   text-decoration: none;
+}
+.first p.black {
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
 }
