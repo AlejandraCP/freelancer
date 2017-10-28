@@ -86,12 +86,6 @@ header div {
   display: inline-block;
   width: 50px;
 }
-/*.line {
-  display: inline-block;
-  padding: 0;
-  width: 50px;
-  background-color: #fff;
-}*/
 i.fa-star {
   position: relative;
   display: inline-block;
@@ -109,6 +103,56 @@ i.fa-star {
     left: 515px;
     top: 10px;
 }
+/*Second Section*/
+.second {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 110px 0;
+  box-sizing: border-box;
+}
+.second .portfolio {
+  font-size: 32px;
+  font-weight: 700;
+  color: #212529;
+}
+.second  .portfolio h2 {
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+.second img {
+  width: 350px;
+  height: 255px;
+  margin: 12px;
+}
+.second .icon-second {
+  margin-top: 0;
+  margin-bottom: 13px;
+}
+.second .icon-second i{
+  color: #2c3e50;
+  background-color: #fff;
+
+}
+.second .icon-second hr {
+  background-color: #2c3e50;
+  color: #2c3e50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*clases reusables*/
 .text-uppercase {
   text-transform: uppercase;
@@ -122,4 +166,5 @@ i.fa-star {
 .first p.black {
   font-family: 'Lato', sans-serif;
   font-size: 28px;
+  height: 884px;
 }
