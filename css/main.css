@@ -1,8 +1,3 @@
-/*
- * Fuentes
- font-family: 'Montserrat', sans-serif;
-font-family: 'Lato', sans-serif;
- */
 body {
   margin: 0;
   padding: 0;
@@ -10,24 +5,24 @@ body {
 }
 /*Estilo header*/
 header {
-  width: auto;
+  background-color: #2c3e50;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
   height: 16vh;
   min-height: 54px;
-  background-color: #2c3e50;
   margin: 0;
-  box-sizing: border-box;
   padding: 4.5vh;
-  font-family: 'Montserrat', sans-serif;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
+  width: auto;
   z-index: 1000;
 }
 header .title {
-  margin: 0;
   font-size: 32px;
   font-weight: bold;
+  margin: 0;
   vertical-align: middle;
 }
 header div {
@@ -40,12 +35,12 @@ header div {
   display: inline;
 }
 .menu-list {
-  list-style: none;
   display: inline-block;
-  position: relative;
   left: 64vh;
-  vertical-align: middle;
+  list-style: none;
   margin: 2vh;
+  position: relative;
+  vertical-align: middle;
 }
 .menu-list li {
   display: inline;
@@ -62,9 +57,9 @@ header div {
 /*First Section*/
 .first {
   background-color: #18bc9c;
-  height: 684px;/*cambiar a vh*/
-  padding-top: 8vh;
+  height: 684px;
   margin: 7.3855vh 0 0 0;
+  padding-top: 8vh;
   text-align: center;
 }
 .image-profile img {
@@ -87,50 +82,50 @@ header div {
   width: 50px;
 }
 i.fa-star {
-  position: relative;
-  display: inline-block;
-  z-index: 50;
   background-color: #18bc9c;
-  width: 45px;
+  display: inline-block;
+  position: relative;
   top: 5px;
+  width: 45px;
+  z-index: 50;
 }
 .icon hr {
-  width: 250px;
-  position: absolute;
+  background-color: #fff;
   bottom: 8px;
   height: 4px;
-  background-color: #fff;
   left: 515px;
+  position: absolute;
   top: 10px;
+  width: 250px;
 }
 /*Second Section*/
 .second {
-  text-align: center;
+  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   margin: 110px 0;
-  box-sizing: border-box;
+  text-align: center;
 }
 .second .portfolio {
+  color: #212529;
   font-size: 32px;
   font-weight: 700;
-  color: #212529;
 }
 .second  .portfolio h2 {
-  margin-top: 0;
   margin-bottom: 9px;
+  margin-top: 0;
 }
 .second img {
-  width: 350px;
   height: 255px;
   margin: 12px;
+  width: 350px;
 }
 .second .icon-second {
-  margin-top: 0;
   margin-bottom: 13px;
+  margin-top: 0;
 }
 .second .icon-second i{
-  color: #2c3e50;
   background-color: #fff;
+  color: #2c3e50;
 }
 .second .icon-second hr {
   background-color: #2c3e50;
@@ -138,13 +133,13 @@ i.fa-star {
 }
 /*Third Section*/
 .third {
-  height: 580px;
-  text-align: center;
-  color: #fff;
   background-color: #18bc9c;
   box-sizing: border-box;
+  color: #fff;
+  height: 580px;
   margin: 0;
   padding: 100px 0;
+  text-align: center;
 }
 .third .about {
   font-family: 'Montserrat', sans-serif;
@@ -160,64 +155,72 @@ i.fa-star {
   text-align: left;
 }
 .third p {
+  column-count: 2;
+  column-gap: 38px;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   line-height: 30px;
-  column-count: 2;
-  column-gap: 38px;
 }
 .third .icon-third {
-  margin-top: 7px;
   margin-bottom: 15px;
+  margin-top: 7px;
 }
 .download {
-  width: 215px;
-  height: 45px;
-  border-radius: 5px;
   border: 2px solid #fff;
-  position: relative;
+  border-radius: 5px;
+  height: 45px;
   left: 40.5vw;
+  position: relative;
+  width: 215px;
 }
 .download a {
-  text-decoration: none;
+  border-radius: 3px;
   color: #fff;
+  display: inline-block;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
+  height: 30px;
+  margin: 0;
   padding: 8px;
-  display: inline-block;
+  text-decoration: none;
+  width: 200px;
+}
+.download a:hover {
+  background-color: #fff;
+  color: #18bc9c;
+  transition: all 0.3s;
 }
 /*Fourth Section*/
 .fourth {
+  height: 840px;
   margin: 0;
   padding: 0;
-  height: 840px;
 }
 .fourth .second {
   margin-bottom: 45px;
 }
-
 .fourth form {
+    font-size: 'Lato', sans-serif;
   padding: 0 190px 0 280px;
-  font-size: 'Lato', sans-serif;
 }
 .fourth form div {
   height: 100px;
 }
 .fourth form input::placeholder {
+    color: #868e96;
   font-family: 'Lato', sans-serif;
   font-size: 23px;
-  color: #868e96;
 }
 .fourth form input::type {
   font-family: 'Lato', sans-serif
 }
 .fourth form input {
+  border: 1px solid #fff;
+  border-bottom-color: #eee;
   height: 50px;
   padding-bottom: 20px;
-  border: 1px solid #fff;
-  width: 90%;
   outline: 0px;
-  border-bottom-color: #eee;
+  width: 90%;
 }
 .fourth form .message-box {
   height: 200px;
@@ -226,25 +229,95 @@ i.fa-star {
   padding-bottom: 160px;
 }
 form .send {
+  border-radius: 10px;
   position: relative;
   top: 40px;
   width: 90px;
-  border-radius: 10px;
 }
 .send input {
-  border-radius: 5px;
-  font-family: "Lato" , sans-serif;
-  font-weight: 600;
-  font-size: 21px;
-  color: #fff;
   background-color: #18bc9c;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Lato" , sans-serif;
+  font-size: 21px;
+  font-weight: 600;
   padding: 10px;
 }
-
-
-
-
-
+.send input:hover {
+  background-color: #128f76;
+}
+/*Fifth Section*/
+footer {
+  background-color: #2c3e50;
+  box-sizing: border-box;
+  color: #fff;
+  height: 345px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+footer h3 {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 28px;
+   margin-top: 50px;
+}
+footer p {
+  line-height: 30px;
+}
+footer .box a {
+  color: #18bc9c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+}
+footer p a:hover {
+  color: #18bc9c;
+  text-decoration: underline;
+}
+footer:nth-last-child(2n+1) {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+footer .conteiner {
+  display: flex;
+  margin-left: 93px;
+}
+footer .box {
+  width: 30%;
+}
+footer .box .icon {
+  border: 2px solid #fff;
+  border-radius: 100px;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px
+  height: 45px;
+  margin: 18px 2px;
+  position: relative;
+  width: 45px;
+}
+.icon:hover {
+  background-color: #fff;
+}
+.fa:hover {
+  color: #18bc9c;
+}
+footer .box .fa {
+  border-radius: 100px;
+  height: 45px;
+  position: relative;
+  top: 8px;
+  width: 45px;  
+}
+footer .box:nth-child(2){
+  margin: 0 38px;
+}
+.copyright {
+  font-size: 16px;
+  position: relative;
+  top: 55px;
+}
 /*clases reusables*/
 .text-uppercase {
   text-transform: uppercase;
