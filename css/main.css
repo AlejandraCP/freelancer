@@ -91,17 +91,17 @@ i.fa-star {
   display: inline-block;
   z-index: 50;
   background-color: #18bc9c;
-    width: 45px;
-    top: 5px;
+  width: 45px;
+  top: 5px;
 }
 .icon hr {
   width: 250px;
-    position: absolute;
-    bottom: 8px;
-    height: 4px;
-    background-color: #fff;
-    left: 515px;
-    top: 10px;
+  position: absolute;
+  bottom: 8px;
+  height: 4px;
+  background-color: #fff;
+  left: 515px;
+  top: 10px;
 }
 /*Second Section*/
 .second {
@@ -175,8 +175,8 @@ i.fa-star {
   height: 45px;
   border-radius: 5px;
   border: 2px solid #fff;
-position: relative;
-left: 40.5vw;
+  position: relative;
+  left: 40.5vw;
 }
 .download a {
   text-decoration: none;
@@ -184,16 +184,62 @@ left: 40.5vw;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   padding: 8px;
-display: inline-block;
+  display: inline-block;
+}
+/*Fourth Section*/
+.fourth {
+  margin: 0;
+  padding: 0;
+  height: 840px;
+}
+.fourth .second {
+  margin-bottom: 45px;
 }
 
-
-
-
-
-
-
-
+.fourth form {
+  padding: 0 190px 0 280px;
+  font-size: 'Lato', sans-serif;
+}
+.fourth form div {
+  height: 100px;
+}
+.fourth form input::placeholder {
+  font-family: 'Lato', sans-serif;
+  font-size: 23px;
+  color: #868e96;
+}
+.fourth form input::type {
+  font-family: 'Lato', sans-serif
+}
+.fourth form input {
+  height: 50px;
+  padding-bottom: 20px;
+  border: 1px solid #fff;
+  width: 90%;
+  outline: 0px;
+  border-bottom-color: #eee;
+}
+.fourth form .message-box {
+  height: 200px;
+}
+.message-box .message {
+  padding-bottom: 160px;
+}
+form .send {
+  position: relative;
+  top: 40px;
+  width: 90px;
+  border-radius: 10px;
+}
+.send input {
+  border-radius: 5px;
+  font-family: "Lato" , sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  color: #fff;
+  background-color: #18bc9c;
+  padding: 10px;
+}
 
 
 
