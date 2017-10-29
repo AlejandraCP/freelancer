@@ -2,12 +2,12 @@
 
 * **Sprint 2:** _Creando un sitio web interactivo con JavaScript_
 * **Unidad 1:** _Maquetado web con HTML & CSS_
-* **Reto 1:** _Replicar página web FREELANCER.
+* **Reto 1:** _Replicar página web FREELANCER_
 
 ***
 
 El reto se enfoca en la maquetación de la página web *FREELANCER* desarrollado en base HTML5 y CSS3.  
-Editor de texto usado: *ATOM*
+
 
 ## Estructura de la página web  
 
@@ -24,3 +24,6 @@ Consta de 6 secciones:
 
 
 ![Freelancer Website](docs/fullpage.png)
+
+## Información adicional  
+Editor de texto usado: *ATOM*. 
