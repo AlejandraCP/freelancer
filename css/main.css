@@ -9,7 +9,9 @@ header {
   box-sizing: border-box;
   height: 108px;
   margin: 0;
+
   padding: 30.3px;
+
   position: fixed;
   top: 0;
   right: 0;
@@ -26,7 +28,7 @@ header .conteiner {
   display: inline;
   margin: auto 58px;
 }
-/*header nav style*/
+/*header navigation style*/
 .menu {
   display: inline;
 }
@@ -34,10 +36,10 @@ header .conteiner {
   display: inline-block;
   left: 35.5%;
   list-style: none;
-  margin: 13.4px;
+  margin: 13.5px;
   position: relative;
   vertical-align: middle;
-  word-spacing: 2px;
+  word-spacing: 1px;
 }
 .menu-list li {
   display: inline;
@@ -51,25 +53,26 @@ header .conteiner {
 .menu-list li a:hover {
   color: #18bc9c;
 }
-/*First Section - profile*/
+
+/*First Section: profile - style */
 #first {
   background-color: #18bc9c;
   height: 684px;
-  margin: 7.3855vh 0 0 0;
+  margin: 49px 0 0 0;
   padding-top: 8vh;
   text-align: center;
 }
 .image-profile img {
   display: inline-block;
-  margin-top: 96px;
+  margin-top: 101px;
 }
 .big-title {
   font-size: 76px;
-  margin: 26px 0 0 0;
+  margin: 26.9px 0 0 0;
   padding: 0;
 }
 .icon {
-  margin: 2.5vh 0 0 0;
+  margin: 16.8px 0 0 0;
   position: relative;
 }
 .fa-minus {
@@ -84,7 +87,8 @@ i.fa-star {
   width: 45px;
   z-index: 50;
 }
-/*Second Section - portfolio*/
+
+/*Second Section: portfolio - style */
 .second {
   box-sizing: border-box;
   margin: 110px 0;
@@ -104,7 +108,8 @@ i.fa-star {
   margin: 12px;
   width: 350px;
 }
-/*Third Section - about*/
+
+/*Third Section: about - style */
 .third {
   background-color: #18bc9c;
   box-sizing: border-box;
@@ -159,7 +164,9 @@ i.fa-star {
   color: #18bc9c;
   transition: all 0.3s;
 }
-/*Fourth Section - contact me*/
+
+/*fourth Section: contact me - style */
+
 .fourth {
   height: 840px;
   margin: 0;
@@ -204,17 +211,25 @@ form .send button {
 }
 .send button {
   background-color: #18bc9c;
+  border: 0;
   border-radius: 5px;
   font-size: 19px;
   font-weight: 600;
+  height: 47px;
   padding: 10px;
+
   outline-color: #93d3a2;
   border: 0;
+
+  width: 80px;
+
 }
 .send button:hover {
   background-color: #128f76;
 }
-/*Fifth Section - footer*/
+
+/*Fifth Section: footer - style*/
+
 footer {
   background-color: #2c3e50;
   box-sizing: border-box;
@@ -259,6 +274,9 @@ footer .box .icon {
   height: 45px;
   margin: 18px 2px;
   position: relative;
+
+  top: -6px;
+
   width: 45px;
 }
 i.fa-facebook::before, i.fa-google-plus::before,
@@ -288,7 +306,7 @@ footer .box:nth-child(2){
   position: relative;
   top: 55px;
 }
-/*start and 2 lines*/
+/*start and 2 lines style*/
 .second .icon-star {
   margin-bottom: 13px;
   margin-top: 0;
