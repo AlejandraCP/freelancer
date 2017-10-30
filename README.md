@@ -26,4 +26,5 @@ Consta de 6 secciones:
 ![Freelancer Website](docs/fullpage.png)
 
 ## Información adicional  
-Editor de texto usado: *ATOM*. 
+Editor de texto usado: *ATOM*.  
+Íconos usados de Font Awesome.
